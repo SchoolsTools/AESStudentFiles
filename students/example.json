@@ -1,0 +1,13 @@
+{
+    "root": {
+        "sub": {
+            "type": "dir",
+            "data": {
+                "text.txt": {
+                    "type": "file",
+                    "data": [32,33,34,35,36]
+                }
+            }
+        }
+    }
+}

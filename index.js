@@ -4,7 +4,9 @@ const fs = require('fs');
 
 const server = http.createServer(async (req,res) => {
     var url = new URL(`http://websi.te${req.url}`);
-    if(url.pathname == '/api/verify') {
-        u
+    if(url.pathname == '/api/retrieve') {
+        try {
+            var encrypted_data = 
+        }
     }
 });
